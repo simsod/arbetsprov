@@ -1,0 +1,29 @@
+﻿@{
+    ViewData["Title"] = "Arbetsprov";
+}
+<div class="search-page">
+
+    <form class="search-form form-inline">
+        <div class="form-group">
+            <label for="query">Sökfråga</label>
+            <input class="form-control" id="query" name="query" type="search" placeholder="Skriv din sökfråga här..." />    
+        </div>
+        <button class="btn btn-primary" type="submit">Sök</button>
+    </form>
+
+    <div class="search-result">
+        <h2>Sökresultat</h2>
+        <ol id="result-list" class="result-list list-unstyled">
+            <li class="result-item">            
+                <h3 class="title">
+                    <a href="http://www.adlibris.com">En bok</a></h3>
+                <span class="author">Författare, Författarson</span>
+            </li>
+            <li class="result-item">            
+                <h3><a href="http://www.adlibris.com">En annan bok</a></h3>
+                <span class="author">Författare, Författarson</span>
+            </li>
+        </ol>
+    </div>
+
+</div>
