@@ -10,7 +10,7 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/src/Arbetsprov/bin/Debug/netcoreapp3.1/Arbetsprov.dll",
+            "program": "${workspaceFolder}/src/Arbetsprov/bin/Debug/net6.0/Arbetsprov.dll",
             "args": [],
             "cwd": "${workspaceFolder}/src/Arbetsprov",
             "stopAtEntry": false,
